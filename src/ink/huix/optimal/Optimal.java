@@ -12,7 +12,7 @@ import javax.annotation.Nonnull;
 
 @Mod
 public class Optimal extends AbstractMod {
-    public static final String MITE_ITE_VERSION = "0.1.0-Beta";
+    public static final String MITE_ITE_VERSION = "V2";
     @Nonnull
     public InjectionConfig getInjectionConfig() {
         return InjectionConfig.Builder.of("MITE-Optimal", MinecraftMixin.class.getPackage(), MixinEnvironment.Phase.INIT).setRequired().build();

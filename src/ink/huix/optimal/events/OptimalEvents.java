@@ -9,7 +9,7 @@ public class OptimalEvents {
     @Subscribe
     public void onPlayerLoggedIn(PlayerLoggedInEvent event) {
         EntityPlayer par1EntityPlayerMP = event.getPlayer();
-        par1EntityPlayerMP.sendChatToPlayer(ChatMessage.createFromText("[MITE-Optimal]: ").setColor(EnumChatFormat.WHITE)
-                .addText("MITE-Optimal").addText("Wrtie by Wensc; Build by Huix").setColor(EnumChatFormat.DARK_AQUA));
+        par1EntityPlayerMP.sendChatToPlayer(ChatMessage.createFromText("[MITE-Optimal]: ")
+                .addText("MITE-Optimal").addText("Wrtie by Wensc; Build by Huix").setColor(EnumChatFormat.WHITE));
         }
 }
